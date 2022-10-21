@@ -198,6 +198,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     NavigationBarModeGesturalOverlayFS \
+    NoCombinedIconsOverlay \
     NetworkStackOverlay \
 
 $(call inherit-product, vendor/tequila/config/bootanimation.mk)
